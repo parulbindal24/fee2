@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #74ebd5, #9face6);
+  min-height: 100vh;
+}
+
+/* Main container */
+.container {
+  width: 600px;
+  margin: 60px auto;
+  padding: 35px;
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Main heading */
+h1 {
+  font-size: 38px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+/* Individual counter boxes */
+.counter {
+  margin: 25px 0;
+  padding: 25px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #fff1eb, #ace0f9);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.12);
+}
+
+/* Counter heading */
+.counter h2 {
+  margin: 0;
+  color: #444;
+  font-size: 24px;
+}
+
+/* Counter number */
+.counter h3 {
+  font-size: 45px;
+  margin: 15px;
+  color: #5b4bdb;
+}
+
+/* Buttons */
+button {
+  padding: 12px 25px;
+  margin: 6px;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* Button hover effect */
+button:hover {
+  transform: scale(1.08);
+}
+
+/* First button */
+.counter button:first-of-type {
+  background-color: #b8f2c8;
+  color: #176b35;
+}
+
+/* Second button */
+.counter button:last-of-type {
+  background-color: #ffc4c4;
+  color: #a32121;
+}
